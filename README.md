@@ -2,7 +2,7 @@
 
 This project involves fine-tuning pre-trained deep learning models—ResNet-50, InceptionNet, and AlexNet—for the binary classification of Diabetic Retinopathy. The implementation is carried out in a Colab notebook, leveraging the Kaggle dataset for training and evaluation.
 
-Dataset
+## Dataset
 The dataset used for this project can be found here: 
 https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy/data
 Pre-trained models used are from the ImageNet dataset.
@@ -11,10 +11,10 @@ Description: The dataset consists of labeled fundus images of the retina, which 
 Class 0: No Diabetic Retinopathy
 Class 1: Diabetic Retinopathy
 
-Objective
+## Objective
 The goal of this project is to fine-tune pre-trained Convolutional Neural Networks (CNNs) for accurate binary classification of Diabetic Retinopathy. By leveraging transfer learning, the project aims to achieve high performance while minimizing computational resources and training time.
 
-Key Features
+## Key Features
 Transfer Learning
 
 Fine-tuning ResNet-50, InceptionNet, and AlexNet pre-trained on ImageNet.
@@ -30,7 +30,7 @@ Binary Cross entropy loss function for classification.
 Use of Adam optimizer with a learning rate scheduler.
 Metrics: Accuracy, Precision, Recall, and F1 Score.
 
-How to Run the Project
+## How to Run the Project
 Clone the repository and upload it to Google Colab.
 Download the dataset from Kaggle and upload it to your Google Drive.
 Update the file paths in the notebook accordingly.
