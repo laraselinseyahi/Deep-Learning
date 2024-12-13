@@ -10,14 +10,12 @@ The dataset contains a collection of retinal images with labels indicating the p
 retinopathy, making it suitable for binary classification. The images are high-resolution retinal scans assessed by
 medical professionals. The dataset consists of 1050 DR and 1026 non-DR images for training, 245 DR and 286 non-DR
 images for validation, and 113 DR and 118 non-DR images for testing.
-Figure 1: DR positive Figure 2: DR negative
-Figure 3: Binary Classification Images: DR positive and DR negative
 # Multiclass Classification Data
 A publicly available dataset from Kaggle titled “Diabetic Retinopathy Dataset” for the multiclass clas-
 sification problem. The dataset includes pre-processed retinal fundus images of size 256 x 256.
-https://www.kaggle.com/datasets/sachinkumar413/diabetic-retinopathy-dataset/data The dataset includes a total of
-2750 retinal images in 5 categories with the corresponding labels and number of images per each category:
-Class 0: Healthy (Not DR) – 1000
+https://www.kaggle.com/datasets/sachinkumar413/diabetic-retinopathy-dataset/data 
+The dataset includes a total of 2750 retinal images in 5 categories with the corresponding labels and number of images per each category:
+Class 0: Healthy (Not DR) – 1000 
 Class 1: Mild DR – 370
 Class 2: Moderate DR – 900
 Class 3: Proliferative DR – 290
