@@ -5,9 +5,9 @@ This project explores fine-tuning pre-trained deep learning models—ResNet-50, 
 ## Dataset
 # Binary Classification Data
 I used a publicly available dataset obtained from Kaggle, titled “Diagnosis of Diabetic Retinopathy”
-https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy/data \ 
+https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy/data  
 The dataset contains a collection of retinal images with labels indicating the presence (1) or absence (0) of diabetic
-retinopathy, making it suitable for binary classification. The dataset consists of 1050 DR and 1026 non-DR images for training, 245 DR and 286 non-DR images for validation, and 113 DR and 118 non-DR images for testing. \
+retinopathy, making it suitable for binary classification. The dataset consists of 1050 DR and 1026 non-DR images for training, 245 DR and 286 non-DR images for validation, and 113 DR and 118 non-DR images for testing. 
 
 # Multiclass Classification Data
 A publicly available dataset from Kaggle titled “Diabetic Retinopathy Dataset” for the multiclass classification problem. The dataset includes pre-processed retinal fundus images of size 256 x 256. \
@@ -29,11 +29,11 @@ In binary classification, random horizontal flips and random rotations were appl
 
 
 ## How to Run the Project
-Clone the repository and upload it to Google Colab. 
-Download the datasets from Kaggle and upload it to your Google Drive. 
-Update the file paths in the notebook accordingly. 
-Install dependencies: 
+1) Clone the repository and upload it to Google Colab. 
+2) Download the datasets from Kaggle and upload it to your Google Drive. 
+3) Update the file paths in the notebook accordingly. 
+4) Install dependencies: 
 !pip install tensorflow keras matplotlib seaborn scikit-learn   
-Execute the cells in the Colab notebook to preprocess the data, fine-tune the models, and evaluate the results!
+5) Execute the cells in the Colab notebook to preprocess the data, fine-tune the models, and evaluate the results!
 
 
