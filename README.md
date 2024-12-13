@@ -29,11 +29,11 @@ In binary classification, random horizontal flips and random rotations were appl
 
 
 ## How to Run the Project
-Clone the repository and upload it to Google Colab. \
-Download the datasets from Kaggle and upload it to your Google Drive. \
-Update the file paths in the notebook accordingly. \ 
-Install dependencies: \ 
-!pip install tensorflow keras matplotlib seaborn scikit-learn   \ 
-Execute the cells in the Colab notebook to preprocess the data, fine-tune the models, and evaluate the results! \
+Clone the repository and upload it to Google Colab. 
+Download the datasets from Kaggle and upload it to your Google Drive. 
+Update the file paths in the notebook accordingly. 
+Install dependencies: 
+!pip install tensorflow keras matplotlib seaborn scikit-learn   
+Execute the cells in the Colab notebook to preprocess the data, fine-tune the models, and evaluate the results!
 
 
