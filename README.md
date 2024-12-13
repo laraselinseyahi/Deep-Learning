@@ -20,11 +20,11 @@ Class 3: Proliferative DR – 290 \
 Class 4: Severe DR – 190 \
 Using the train_test_split function and 70/20/10 split, Train set had 1974, Validation set had 566, and Test set had 280 images.
 For both tasks, during data pre-processing, the images are resized according to the input requirements of the pre-trained model they got trained with: (224, 224, 3) for Resnet 50 and Alexnet, and (299, 299, 3) for InceptionNet. Normalization is performed using the preprocess_input function in Keras for each specific model.
-In multiclass classification, class imbalance is addressed by applying targeted data augmentation to underrepresented classes (1, 3, and 4). I applied the following data augmentation techniques: \
-1) Random horizontal and vertical flips with 50% probability, \
-2) Random brightness adjustments with maximum delta = 0.2, \
-3) Random contrast adjustments with range 0.8 to 1.2, \
-4) Random cropping and resizing to introduce diversity in spatial orientation. \
+In multiclass classification, class imbalance is addressed by applying targeted data augmentation to underrepresented classes (1, 3, and 4). I applied the following data augmentation techniques: 
+1) Random horizontal and vertical flips with 50% probability
+2) Random brightness adjustments with maximum delta = 0.2
+3) Random contrast adjustments with range 0.8 to 1.2
+4) Random cropping and resizing to introduce diversity in spatial orientation. 
 In binary classification, random horizontal flips and random rotations were applied to enhance variability in the training set.
 
 
